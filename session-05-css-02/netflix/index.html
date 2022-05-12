@@ -11,32 +11,35 @@
 <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-<div>
+<div class="cerceve">
     <h1>NET<span>FLIX</span></h1>
-    <p><b>Thank you for signing up at Netflix. Tell us more about your self</p>
+    <h3>Thank you for signing up at Netflix. Tell us more about your self</h3>
 
     <div class="tablo">
-        <form action="result.html" method="get">
-         <div><label for="isim">Name</label> <br>
-            <input type="text" name="isim" placeholder="Isim yaziniz">
-         </div><br>
-          <div>
+       
+         <form action="result.html" method="get">
+         <label for="isim">Name</label> <br>
+            <input type="text" id='name' name="isim" placeholder="Isim yaziniz">
+            <br>
+         
+          
             <label for="yaş">Age</label> <br />
             <input type="number"
               name="yaş"
-              id="yaş"
-              placeholder="Yas">
-          </div> <br/>
-          <div>
+              id="age"
+              placeholder="Yas"><br>
+          
+          
             <label for="email">EMAIL</label><br>
             <input
               type="email"
               name="email"
               id="email"
               placeholder="E-Mail adresinizi yaziniz"
-            />
-          </div> <br/>
-          <div>
+            ><br><br>
+          
+        
+          
             <label for="icerik">Content Type</label>
             <br />
             <select name="beklenti" id="icerik">
@@ -47,41 +50,45 @@
                 <option value="animasyon">Animasyon</option>
               
             </select>
-          </div> <br/>
-
-          <div>
-            <label for="">Movie Type</label><br />
-            <label for="Comedy">Comedy</label>
-            <input id="Comedy" type="checkbox" name="tür1"  value="Comedy" /><br>
-            <label for="Action">Action</label>
-            <input type="checkbox" name="tür2" id="Action" value="Action" /><br>
-            <label for="romance">Romance</label>
-            <input type="checkbox" name="tür3" id="romance" value="romance" />
-          </div> <br/>
-
-          <div>
-            <label>Gender</label> <br />
-            <label for="erkek">Male</label>
-            <input type="radio" name="cinsiyet" id="erkek" value="erkek" /><br>
-            <label for="kadın">Female</label>
-            <input type="radio" name="cinsiyet" id="kadın" value="kadın" /><br>
-            <label for="none">Other</label>
-            <input type="radio" name="cinsiyet" id="none" value="none" checked />
             
-          </div> <br/>
+          <br/><br><br>
 
-          <div>
+
+          
+            <label for="">Movie Type</label><br />
+            
+            <input id="movie" type="checkbox" name="tür1"  value="Comedy" />
+            <label for="Comedy">Comedy</label><br>
+            <input type="checkbox" name="tür2" id="movie" value="Action" />
+            <label for="Action">Action</label><br>
+            <input type="checkbox" name="tür3" id="movie" value="romance" />
+            <label for="romance">Romance</label>
+           <br/><br><br>
+
+          
+            <label>Gender</label> <br />
+            
+            <input type="radio" name="cinsiyet" id="gender" value="erkek" />
+            <label for="erkek">Male</label><br>
+            <input type="radio" name="cinsiyet" id="gender" value="kadın" />
+            <label for="kadın">Female</label><br>
+            <input type="radio" name="cinsiyet" id="gender" value="none" checked />
+            <label for="none">Other</label><br><br>
+        
+
+         
             <label for="yorum">Feed back</label>
             <br/>
             <textarea
               name="yorum"
-              id="yorum" placeholder="Yorum yaz"
-            ></textarea>
+              id="yorum" placeholder="Yorum yaz" cols="40" rows="4"
+            ></textarea><br><br>
             
-          </div> <br/>
+          
           <div class="submit">
-            <input type="submit" value="Submit" />
+            <input type="submit" value="Submit" id="button" />
           </div>
+          <br><br>
   
 
 
