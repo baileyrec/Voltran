@@ -1,0 +1,27 @@
+img{
+    width: 50%;
+    float: left;
+}
+
+.box{
+    float: left;
+    height: 2rem;
+    text-align: center;
+    padding-top: 1rem;
+}
+.box1{
+    background-color: rgb(41, 194, 61);
+    width: 10rem;
+}
+.box2{
+    background-color: rgb(140, 140, 176);
+    width: 10rem;
+}
+.box3{
+    background-color: rgb(255, 0, 191);
+    width: 10rem;
+}
+
+.clearfix{
+    clear: left;
+}

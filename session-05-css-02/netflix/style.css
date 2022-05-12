@@ -3,7 +3,7 @@ body{
     background-image: url(./background_image.jpg);
     background-repeat: no-repeat;
 }
-h1{text-align:;
+h1{text-align: center;
 color: azure;
 font-family: 'Roboto', sans-serif;
 

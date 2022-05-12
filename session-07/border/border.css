@@ -1,0 +1,44 @@
+*{
+    font-size: 24px;
+}
+.container,
+.container1{
+    margin: 1rem;
+}
+
+.msg{
+    display: inline-block;
+    margin: 1rem;
+}
+
+.msg1{
+    border: 2px solid blue;
+}
+
+.msg2{
+    border: 3px dashed rgb(255, 0, 170);
+}
+.msg3{
+    border-right:6px solid red;
+    border-left: 3px dashed green;
+}
+.msg4{
+    border: 4px dotted rgb(123, 15, 232);
+    border-radius: 4px 0;
+    background-color: rgb(182, 123, 123);
+    padding: 1rem;
+}
+.msg5{
+    border: 2px solid;
+    background-color: hsl(120, 43%, 68%);
+
+}
+.msg6{
+    border: 2px solid blue;
+    border-radius: 30%;
+}
+.msg7{
+    border: 3px solid rgb(103, 103, 112);
+    border-radius: 50%;
+    padding: 1rem;
+}

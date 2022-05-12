@@ -1,0 +1,42 @@
+/*! Yatay Menu*/
+
+.yatay-menu ul{
+    list-style-type: none;
+}
+
+.yatay-menu ul li{
+    background-color: rgb(168, 179, 149);
+    text-align: center;
+    display: inline-block;
+    width: 7rem;
+    height: 4rem;
+    margin: 0.5rem;
+}
+
+
+
+a{
+    display: inline-block; 
+    text-decoration: none;
+    background-color: aqua;
+    padding: 1rem;
+    width: 5rem;
+}
+a:hover{
+    background-color: blueviolet;
+    color: azure;
+}
+/*?active hoverdan sonra kullanilir, yada direk kime active yapilacaksa spesifik olmali*/
+a:active{
+    color: brown;
+}
+
+/**Acilir Menu*/
+
+.acilir-menu ul{
+    display: none;
+}
+
+.acilir-menu:hover ul{
+    display: block;
+}

@@ -1,0 +1,25 @@
+.btn{
+    background-color: aqua;
+    margin: 1rem;
+    padding: 1rem 2rem;
+}
+
+.btn:last-child{
+    margin-bottom: 3rem;
+}
+
+.span-btn{
+    display: inline-block;
+    background-color: chocolate;
+    padding: 1rem;
+    margin: 1rem 6rem;
+
+}
+
+.new-btn{
+    background-color: rgb(225, 35, 28);
+    margin: 2rem auto;
+   padding: 2rem 1rem;
+    width: 15vw;
+    text-align: center;
+}
