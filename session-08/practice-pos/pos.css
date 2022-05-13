@@ -1,0 +1,55 @@
+
+body{
+    font-family: 'Nunito Sans';
+
+}
+
+
+.ust-menu{
+    background-color: #8865a7;
+}
+.mor-menu{
+    color: white;
+    position: absolute;
+    right: 2rem;
+    top: 3rem;
+
+}
+.mor-menu a{
+    color: white;
+}
+
+.mor-menu a:hover{
+    color: rgb(2, 2, 2);
+}
+
+.alt-menu{
+    background-color:#ffaa53;
+    padding: 1.8rem;
+    text-align: center;
+    position: sticky;
+    top:0;
+    
+
+}
+.alt-menu a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin:0 3rem;
+}
+.alt-menu a:hover{
+    color: white;
+}
+
+.slack{
+    background-color: red;
+    color: white;
+    width: 2rem;
+    font-size: 1.6rem;
+    border-radius: 50%;
+    text-align: center;
+    position: fixed;
+    bottom: 2rem;
+    right: 1rem;
+}

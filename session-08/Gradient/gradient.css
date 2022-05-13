@@ -1,0 +1,24 @@
+p{
+    height: 10vh;
+
+}
+
+.header1{
+    background-image: linear-gradient(yellow,blue);
+}
+
+.header2{
+    background-image: linear-gradient(rgb(241, 241, 57),rgb(72, 72, 226),hsl(0, 77%, 43%));
+}
+.header3{
+    background-image: linear-gradient(to right, yellow,green,red,blue);
+}
+.header4{
+    background-image: linear-gradient(60deg, yellow,green,red,blue);
+}
+.header5{
+    background-image: radial-gradient(yellow 25%,green,red,blue);
+}
+.header6 {
+    background-image: repeating-radial-gradient(yellow, green 10%,red 15%);
+  }

@@ -1,0 +1,11 @@
+.gizli ul{
+display: none;
+}
+
+.gizli:hover ul{
+    display: block;
+}
+
+h2{
+    border: 1px solid rgb(25, 24, 24);
+}
