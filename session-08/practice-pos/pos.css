@@ -9,9 +9,10 @@ body{
     background-color: #8865a7;
 }
 .mor-menu{
+    display: block;
     color: white;
     position: absolute;
-    right: 2rem;
+    left: 2rem;
     top: 3rem;
 
 }

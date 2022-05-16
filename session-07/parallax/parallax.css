@@ -1,0 +1,14 @@
+.bg{
+    height: 70vh;
+    background-size: cover;
+    background-position: top center;
+    background-attachment: fixed;
+}
+
+.image1{
+    background-image: url(./mona-lisa-p-1024727412-jpg--81961-.jpeg);
+}
+
+.image2{background-image: url(./tree.webp)
+}
+

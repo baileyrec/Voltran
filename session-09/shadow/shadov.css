@@ -1,0 +1,36 @@
+.text{
+    font-size: 2rem;
+    padding: 1rem;
+    letter-spacing: 1rem;
+
+}
+
+.text1{
+    color: red;
+    text-shadow: 5px 4px 5px blue;
+    /* offset-x | offset-y | blur-radius | color */
+}
+
+.text2{
+    background-color: darkolivegreen;
+    color: white;
+    text-shadow: -4px 3px 6px red;
+}
+
+.text3{
+    background-color: #222222;
+  color: rgb(218, 207, 207, 0.9);
+  text-shadow: 6px 2px 3px rgba(255, 255, 255, 1);
+}
+
+.text4{
+    text-shadow: 5px 3px 2px brown, -7px -5px 4px blue;
+}
+
+.text5{
+    background-color: rgb(135, 195, 197);
+    color: aliceblue;
+    text-shadow: 5px 5px 0px rgb(22, 41, 41), 
+    10px 10px rgb(176, 146, 100),
+    20px 20px rgb(27, 45, 46);
+}

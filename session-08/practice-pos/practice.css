@@ -1,0 +1,76 @@
+body{
+    font-family: 'Nunito Sans';
+    margin: 0;
+    
+}
+p{
+    font-size: larger;
+    background-color: rgb(236, 234, 234);
+    margin-top: 0;
+    
+}
+.üst{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+
+}
+.welcome{
+    background-color: rgb(68, 66, 66);
+    font-weight: bold;
+    color: white;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    
+    
+
+    
+}
+
+.login{
+    background-color: rgb(68, 66, 66);
+    width: 50%;
+    color: white;
+    text-align: end;
+    position: 
+}
+
+.login a{
+    text-decoration: none;
+    color: white;    
+}
+
+.alt{position: sticky;
+    display: flex;
+    flex-direction: row;
+    top: 0;
+    justify-content: space-between;
+    background-color: rgb(164, 160, 157);
+    
+    height: 60px; 
+
+}
+
+
+.menu{
+    background-color: rgb(164, 160, 160);
+    padding: 0 10px;
+    margin: 15px 10px;
+    
+  
+    
+    text-align: center;
+    
+    
+}
+
+.menu a{
+    text-decoration: none;
+    color: black;
+}
+
+.pracice{
+    margin-top: 15px;
+    font-size: 30px;
+}

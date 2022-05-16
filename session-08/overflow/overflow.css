@@ -1,0 +1,32 @@
+.box{
+    border: 2px solid red;
+    height: 5rem;
+    width: 20rem;
+    margin-bottom: 20rem;
+}
+
+.box1{
+    overflow: visible;
+}
+
+.box2{
+    overflow: hidden;
+
+}
+
+.box2:hover{
+    overflow: visible;
+}
+.box3{
+    overflow: scroll;
+}
+.box4{
+    overflow: auto;
+}
+.box5{
+    overflow: auto;
+}
+.box6{
+    overflow-x: auto;
+    overflow-y: scroll;
+}
