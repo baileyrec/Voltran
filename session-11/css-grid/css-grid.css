@@ -1,0 +1,28 @@
+.container{
+    display: grid;
+    grid-template-columns: 150px 300px 250px;
+    grid-template-rows: 100px 500px 100px;
+    
+}
+.content{
+    border: 1px solid red;
+    background-color: thistle;
+    text-align: center;
+    display: table-cell;
+    
+
+}
+.content1{
+    background-image: url(../../session-06/float/winter1.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.content4{
+    overflow: auto;
+    text-align: left;
+    
+}
+.container5{
+    vertical-align: middle;
+}

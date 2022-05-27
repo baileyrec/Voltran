@@ -1,0 +1,59 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;/* yada repeat(4,1fr) esit*/
+    grid-template-rows: repeat(6,15vh) 15vh 15vh ;
+    gap: 10px 5px;/*kutular arasi bosluk*/
+}
+/* .content:nth-child(odd){
+background-color: aquamarine;
+}
+.content:nth-child(even){
+    background-color: blueviolet;
+} */
+
+.content{
+    background-color: yellowgreen;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid gray;
+}
+
+.content1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-color: coral;
+}
+
+.content4{
+    grid-row-start: 2;
+    grid-row-end: 4;
+    background-color: aqua;
+}
+
+.content6{
+    /* 
+    grid-row-start: 2;
+    grid-row-end: 4;
+    grid-column-start: 3;
+    grid-column-end: 5; bu uzun yol. alttaki kisa yol*/
+    grid-area: 2/3/span 2/span 2;
+    background-color: blueviolet;
+}
+
+.content9{
+    grid-row-start: 4;
+    grid-row-end: 6;
+    grid-column: 2;
+    background-color: cadetblue;
+
+}
+.content10{
+    grid-area: 4/3/span 2/span 2;
+    background-color: darkkhaki;
+}
+
+.content12{
+    grid-column: span 4;
+    /* uzun yol satir icin : grid-area:6/1/span 1/span 4; */
+}
